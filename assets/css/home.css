@@ -1,0 +1,127 @@
+.body {
+    margin:0;
+    padding: 0;
+}
+
+.center-text h1{
+    font-size: 44px;    
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    text-align: center;
+    height: 35px;
+    font-weight: 500;
+}
+.center-text p {
+    font-size: 22px;    
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+    color: gray;
+}
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 150px;
+    background-color: #c8c8c8;
+    border: 2px lightgrey;
+    border-radius: 5px;
+}
+
+@-webkit-keyframes bounce {
+        0% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+  
+  30%{
+    transform: scale(1,0.8) translate(0px, 5px); 
+  }
+
+  75%{
+    transform: scale(1,1.1) translate(0px, -8px); 
+  }
+  
+ 100% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+}
+
+.upload-btn {
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: #971595;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 7px;
+    -webkit-animation: bounce 1.6s infinite;
+}
+
+
+.list-center-text {
+    color:  #f8f8f8;    
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    background-color: #9e64ef;
+    margin-top: 50px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.list-center-text h2 {
+    padding: 5px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.no-file {
+    margin-top: 30px;
+    font-size: 52px;
+    font-weight: 400;
+    color: rgb(61, 21, 77);
+    text-align: center;
+    text-transform: uppercase;
+}
+.file-details {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    
+}
+table {
+  width: 100%;
+  margin: auto;
+}
+th, td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+th {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.view-link {
+    padding: 10px;
+    text-decoration: none;
+    color: #0000f1;
+}
+.delete-link {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.upload-btn:hover {
+    transform: translateY(-1.5px);
+    box-shadow: 0px 2px 2px 1px rgba(247, 75, 253, 0.4);
+    cursor: pointer;
+}
+
+.files-list{
+    width: 70%;
+    margin: 0px auto;
+  }
