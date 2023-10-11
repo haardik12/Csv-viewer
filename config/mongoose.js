@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
-const url = 'mongodb://127.0.0.1:27017/CsvDb'
+const url =
+  'mongodb+srv://harrytrap123:iJ6nBnatXQBNFm6c@cluster0.3gne2ol.mongodb.net/CsvDb'
 
 mongoose.connect(url)
 
